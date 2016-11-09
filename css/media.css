@@ -1,0 +1,381 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 10.03.2016, 14:10:12
+    Author     : webmaster
+*/
+@media screen and (max-width: 1199px){
+/*    .btn.btn-primary {
+        left: 406px;
+        top: 150px;
+    }*/
+    
+    #myMenu ul li a {
+        padding: 24px 5px;
+    }
+    
+        
+    h5{
+        font-size: 14px;
+    }
+    
+    ul.feature-two.left:before, ul.feature-two.right:before {
+        top: 39.0%;
+    }
+    
+    #bx-pager:before {
+        right: 145px;
+        bottom: -44px;
+    }
+    
+    #bx-pager:after {
+        left: 140px;
+        bottom: -44px;
+    }
+    
+    .section p {
+        line-height: 25px;
+        padding-right: 110px;
+    }
+    
+    .navbar-header p {
+        padding: 15px 0 0 40px;
+    }
+	
+	
+	#timer:after, #timer:before {
+		background-image: none;
+	}
+}
+
+@media screen and (max-width: 991px){
+/*    .btn.btn-primary {
+        left: 285px;
+        top: 145px;
+    }*/
+    
+    #myMenu ul li a {
+        padding: 3px 2px;
+    }
+    .navbar-brand{
+        margin: 0;
+    }
+    
+    .home-container h1{
+        font-size: 34px;
+        line-height: 46px;
+    }
+    
+    ul.feature-two {
+        padding: 0;
+        margin: 0;
+        display: table;
+        margin: auto;
+    }
+    
+    ul.feature-two.left li {
+        padding-right: 0px;
+        padding: 0 40px 50px;
+        text-align: center;
+    }
+    
+     ul.feature-two.left li:first-child {
+        padding: 0 40px 74px;
+    }
+
+    ul.feature-two li .icon {
+        display: table;
+        position: relative;
+        margin-bottom: 8px;
+        left: 50% !important;
+        margin-left: -32px !important;
+    }
+    
+    ul.feature-two li {
+        float: left;
+        padding: 0;
+        width: 33.333333%;
+        margin-bottom: 0px;
+    }
+    
+    ul.feature-two.left li:after {
+        content: "";
+        position: absolute;
+        right: 50%;
+        margin-right: -5px;
+        top: 100%;
+        margin-top: -46px;
+        width: 11px;
+        height: 41px;
+        background-image: url(../img/arrow-top.png);
+    }
+    
+    ul.feature-two.left:before {
+        top: 100%;
+        margin-top: 8px;
+        right: 50%;
+        margin-right: -5px;
+        width: 10px;
+        height: 25px;
+        background-image: url(../img/middle-down.png);
+    }
+    
+    
+    ul.feature-two.left .lin{
+        top: 100%;
+    }
+
+    ul.feature-two .lin {
+        position: absolute;
+        height: 2px !important;
+        width: 100%;
+        background-image: url(../img/h-line.png);
+    }
+    
+       .img-feature-two {
+        display: table;
+        margin: 60px auto;
+    }
+    
+    ul.feature-two.right:before {
+        top: 0;
+        margin-top: -31px;
+        left: 50%;
+        margin-left: -5px;
+        width: 10px;
+        height: 25px;
+        background-image: url(../img/middle-top.png);
+    }
+    
+    ul.feature-two.right li:after {
+        content: "";
+        position: absolute;
+        left: 50%;
+        margin-left: -5px;
+        top: 0;
+        margin-top: 8px;
+        width: 11px;
+        height: 41px;
+        background-image: url(../img/arrow-down.png);
+    }
+    
+    ul.feature-two.right li {
+        padding-left: 0px;
+        padding: 58px 10px 0;
+        text-align: center;
+    }
+    
+    ul.feature-two.right .lin {
+        top: 0;
+        left: 0;
+    }
+    
+    #bx-pager:before {
+        right: 35px;
+        bottom: -44px;
+    }
+    
+    #bx-pager:after {
+        left: 29px;
+        bottom: -44px;
+    }
+    
+    .section {
+        padding: 90px 0px 0 80px;
+    }
+    
+    .navbar-header p {
+       float:none;
+       padding: 0;
+    }
+
+}
+
+@media screen and (max-width: 767px){
+    .ribbon{
+        display:none;
+    }
+    
+    .submenu .nav.navbar-nav li.sub-link{
+        display:inline;
+    }
+    
+    .submenu .nav.navbar-nav:before{
+        background: none;;
+    }
+    
+    .submenu .nav.navbar-nav {
+        padding: 2px 4px 2px 4px;
+    }
+    img.logo{
+        margin-top: 5px;
+        margin-left: 15px;
+    }
+    
+    .home-container {
+        padding-top: 100px;
+        padding-bottom: 340px;
+    }
+    
+/*    .btn.btn-primary {
+        left: 270px;
+        top: 20px;
+    }*/
+    
+    .home-container h1{
+        font-size: 32px;
+        line-height: 38px;
+        text-shadow: 2px 2px 0px #538f9e;
+    }
+    
+    #services p.desc{
+        margin-bottom: 8px;
+    }
+    
+    #bx-pager:before {
+        background-image: none;
+    }
+    
+    #bx-pager:after {
+        background-image: none;
+    }
+    
+    .section {
+        padding: 0px 20px 0 20px;
+    }
+    #bx-pager a {
+        padding: 24px 25px 20px;
+    }
+    
+    .section img {
+        float: none;
+    }
+    
+    .section p {
+        line-height: 13px;
+        padding-right: 0px;
+        font-size: 14px;
+        text-align: justify;
+    }
+    
+    #bx-pager a {
+        padding: 5px 30px 5px;
+    }
+    
+    #bx-pager {
+        max-width: 487px;
+        margin: 20px auto;
+    }
+	
+	ul.feature-two.left li:first-child {
+		padding: 0;
+	}
+	
+	ul.feature-two.left li {
+		text-align: center;
+	}
+	
+	#contacts{
+		padding: 20px 0;
+	}
+	
+	#contacts p {
+		margin-left: 0;
+		font-size: 14px;
+	}
+	
+	#contacts h3 {
+		margin-top: 20px;
+	}
+	
+	ul.feature-two.left li {
+		padding: 0;
+	}
+	
+	ul.feature-two.left .lin {
+		margin: 50px 0 0 0;
+	}
+	
+	ul.feature-two.left:before {
+		margin-top: 52px;
+	}
+	
+	ul.feature-two.left li:after {
+		margin-top: 5px;
+	}
+	
+	ul.feature-two.left li:first-child:after {
+		margin-top: 30px;
+	}
+	
+	.my_modal p, .my_modal a {
+		font-size: 14px;
+		margin-top: 3px;
+	}
+
+	.home-container p.text-center {
+		top: 60px;
+	}
+	
+	#timer {
+		top: 370px;
+	}
+	
+	
+}
+
+
+@media screen and (max-width: 551px){
+    .submenu .nav.navbar-nav li.sub-link {
+        padding: 4px 14px 0px 5px;
+    }
+    
+    #bx-pager a {
+        padding: 5px 28px 5px;
+    }
+/*    .btn.btn-primary {
+        left: 170px;
+        top: 20px;
+    }*/
+	
+	.home-container p.text-center {
+		top: 60px;
+	}
+	
+	#timer{
+	    top: 400px;
+		width: 100%;
+	}
+	
+	#timer p {
+		font-size: 48px;
+	}
+	
+	#timer p.prizyv {
+		font-size: 21px;
+	}
+}
+
+
+@media screen and (max-width: 506px){
+    .submenu .nav.navbar-nav li.sub-link:first-child {
+        display:none;
+    }
+    
+    .home-container p{
+        top: 40px;
+    }
+    
+}
+
+
+@media screen and (max-width: 321px){
+ 
+    #bx-pager a {
+        padding: 5px 22px 5px;
+    }
+}
+
